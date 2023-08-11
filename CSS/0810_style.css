@@ -3,9 +3,6 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #fbfbfd;
 }
-.section-black {
-  background-color: black !important;
-}
 /* Header */
 header {
   background-color: white;
@@ -20,8 +17,9 @@ nav {
 }
 
 .nav-link:hover {
-  color: #e3daff;
+  color: #e1b3ff;
 }
+
 .logo {
   width: 37px;
   height: 45px;
@@ -34,11 +32,24 @@ nav {
 }
 
 /* About */
-.apple_gif {
-  width: 630px;
-  height: 410px;
+.about-container {
+  display: flex;
 }
-
+.apple_gif {
+  width: 65%;
+  height: 60%;
+  padding: 1%;
+}
+.section-about {
+  background-color: black !important;
+  color: white;
+}
+.text-about,
+ul {
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 35px;
+}
 /* Offer */
 
 /* Client Reviews */
