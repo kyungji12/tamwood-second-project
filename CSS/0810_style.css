@@ -8,3 +8,9 @@ body {
 .section-black {
   background-color: black;
 }
+nav {
+  justify-content: end;
+}
+.nav-link {
+  color: black;
+}
