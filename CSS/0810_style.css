@@ -8,9 +8,23 @@ body {
 .section-black {
   background-color: black;
 }
+/* Header */
 nav {
   justify-content: end;
 }
 .nav-link {
   color: black;
 }
+
+/* Name & Specializes */
+.card-img-top {
+  height: 15rem;
+}
+
+/* About */
+
+/* Offer */
+
+/* Client Reviews */
+
+/* Footer */
